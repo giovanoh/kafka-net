@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka-producer", "kafka-producer\kafka-producer.csproj", "{4B6F2FF6-C998-4E8C-94D8-395B100641D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka-consumer", "kafka-consumer\kafka-consumer.csproj", "{63C38472-6AA0-4538-9CEE-0C5B773E003C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39DC69F1-617D-4CE0-B090-7A49CCF9AD79}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		configuration.properties = configuration.properties
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B6F2FF6-C998-4E8C-94D8-395B100641D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6F2FF6-C998-4E8C-94D8-395B100641D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6F2FF6-C998-4E8C-94D8-395B100641D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6F2FF6-C998-4E8C-94D8-395B100641D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C38472-6AA0-4538-9CEE-0C5B773E003C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C38472-6AA0-4538-9CEE-0C5B773E003C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C38472-6AA0-4538-9CEE-0C5B773E003C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C38472-6AA0-4538-9CEE-0C5B773E003C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEF1FD48-9224-4E80-B19A-9049DE8F428F}
+	EndGlobalSection
+EndGlobal
